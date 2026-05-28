@@ -35,10 +35,6 @@
 * **상태 제어**: Critic 에이전트가 부적합(Non-Conformity)으로 판정할 경우, `reason_code`를 기반으로 Analyzer에게 구체적인 수정 지침(`repair_directive`)을 전달하는 **자기 주도적 수정(Self-Correction) 파이프라인**을 설계했습니다.
 * **운영 효율화**: 재시도 횟수 관리와 에러 코드 시스템을 도입하여 무한 루프를 방지하고, LLMOps 관점에서 운영 리소스를 최적화했습니다.
 
-![시스템 아키텍처](./images/image1.png)
-
-![결과 대시보드](./images/image2.png)
-
 ---
 
 ## 🛠️ 주요 기술 스택
