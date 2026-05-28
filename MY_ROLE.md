@@ -11,8 +11,15 @@
     - 특히, 다중 에이전트 시스템에서 발생 가능한 키값(Key-value) 충돌 문제를 방지하기 위해 데이터 입출력 구조를 재설계하여 분석 데이터의 정합성을 보장했습니다.
 
 ---
+## 결과 이미지
 
-## 활용 기술 (Tech Stack)
+![시스템 아키텍처](./images/image1.png)
+
+![결과 대시보드](./images/image2.png)
+
+---
+
+## 활용 기술
 * **LLM Framework**: LangChain, LangGraph, ChatOpenAI
 * **Operations & Eval**: LangSmith, LLMOps
 * **Data & Backend**: SQLite, Python
